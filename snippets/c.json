@@ -2,7 +2,7 @@
 	"warnx(format, __func__, __LINE__);": {
 		"prefix": "wx",
 		"body": [
-			"warnx("%s:%d$1", __func__, __LINE__$0);"
+			"warnx(\"%s:%d$1\", __func__, __LINE__$0);"
 		],
 		"description": "warnx with function and line"
 	},
