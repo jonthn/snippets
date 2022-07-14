@@ -1,0 +1,9 @@
+{
+	"warnx("...", ...);": {
+		"prefix": "wx",
+		"body": [
+			"warnx("%s:%d$1", __func__, __LINE__$2);"
+		],
+	"description": "warnx with function and line"
+	},
+}
